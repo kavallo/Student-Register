@@ -1,0 +1,3 @@
+/media/vlad/5664292864290BF5/Windows.old/Users/Vlad/Source/Workspaces/Student register2 (copy)/Student_register/Student_register/obj/Debug/.NETFramework,Version=v4.5.1.AssemblyAttribute.cs
+/media/vlad/5664292864290BF5/Windows.old/Users/Vlad/Source/Workspaces/Student register2 (copy)/Student_register/Student_register/obj/Debug/Student_register.dll
+/media/vlad/5664292864290BF5/Windows.old/Users/Vlad/Source/Workspaces/Student register2 (copy)/Student_register/Student_register/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll

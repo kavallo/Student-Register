@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Menu.master.cs" Inherits="Student_register.Menu" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="info.aspx">Info Page</a>
+            </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav" runat="server" id="menuBar">
+                    
+                  </ul>
+                  <asp:Label ID="userLabel" runat="server" CssClass="navbar-text navbar-right"></asp:Label>
+                  <asp:Button ID="logoutButton" runat="server" OnClick="logoutButton_Click" Text="Log-out" CssClass="btn btn-default navbar-right" CausesValidation="False" ValidateRequestMode="Disabled" />
+             </div>
+        </nav>
+        <div class="panel panel-default" style="padding-left:25%; padding-right:25%"/>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        
+    </form>
+</body>
+</html>
